@@ -3,16 +3,16 @@ cmake_minimum_required(VERSION 3.19)
 include(FetchContent)
 
 set(gtest_URL https://github.com/google/googletest.git)
-set(gtest_TAG release-1.12.1)
+set(gtest_TAG release-1.14.0)
 
 set(absl_URL https://github.com/abseil/abseil-cpp.git)
-set(absl_TAG 20230125.0)
+set(absl_TAG 20230125.3)   # 20230802.0 latest
 
 set(re2_URL https://github.com/google/re2.git)
-set(re2_TAG 2023-03-01)
+set(re2_TAG 2023-03-01)   # 2023-08-01 latest
 
 set(proto_URL https://github.com/protocolbuffers/protobuf.git)
-set(proto_TAG v22.2)
+set(proto_TAG v22.2)    # v24.1 latest
 
 # From https://www.antlr.org/download.html
 set(antlr_cpp_URL https://www.antlr.org/download/antlr4-cpp-runtime-4.12.0-source.zip)
